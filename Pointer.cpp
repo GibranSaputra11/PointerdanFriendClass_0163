@@ -15,5 +15,7 @@ class Staf{
 };
 
 int main(){
-
+    Dosen ds;
+    ds.nama = "Giga" ;
+    ds.tampilNama();
 }
