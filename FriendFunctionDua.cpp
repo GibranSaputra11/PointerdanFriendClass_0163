@@ -26,5 +26,8 @@ void manusia::showNilaiPelajar(pelajar &y){
 
 
 int main(){
-
+    manusia budi;
+    pelajar pbudi;
+    budi.showNilaiPelajar(pbudi);
+    return 0;
 }
