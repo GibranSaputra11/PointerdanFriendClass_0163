@@ -23,4 +23,9 @@ int main(){
     dsref.nama = "Joko";
     cout << "Alamat memori = " << &dsref << endl;
     dsref.tampilNama();
+
+    Dosen *pds = &ds;
+    pds->nama = "Reza";
+    cout << "Alamat Memori = " << pds << endl;
+    pds->tampilNama();
 }
