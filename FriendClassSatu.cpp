@@ -22,6 +22,10 @@ class siswa{
     void displayAll(orang pNama);
 };
 
+void orang::setNama(string pNama){
+    nama = pNama;
+}
+
 int main(){
 
 
