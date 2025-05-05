@@ -8,6 +8,14 @@ class manusia{
     void showNilaiPelajarDua(pelajar &y);
 };
 
+class pelajar{
+    private:
+    int nilai;
+
+    public:
+    pelajar() {nilai = 100; }
+};
+
 int main(){
 
 }
