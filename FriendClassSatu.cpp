@@ -19,7 +19,7 @@ class siswa{
 
     public:
     void setId(int pId);
-    void displayAll(orang pNama);
+    void displayAll(orang &a);
 };
 
 void orang::setNama(string pNama){
