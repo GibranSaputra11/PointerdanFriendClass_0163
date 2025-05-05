@@ -11,4 +11,7 @@ class mahasiswa{
 
 int main (){
 
+    mahasiswa mhs; //Membuat object mhs
+    mhs.nim = 5;
+    mhs.showNim(); //Member akses operator
 }
